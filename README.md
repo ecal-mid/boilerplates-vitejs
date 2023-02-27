@@ -1,6 +1,6 @@
 # Vite.js Boilerplates
 
-Boilerplates to start simple vanilla projects using [Vite](https://vitejs.dev/).
+Boilerplates to start simple vanilla projects using [Vite](https://vitejs.dev/).\
 Has sass installed by default.
 
 ## Downloads
