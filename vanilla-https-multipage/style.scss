@@ -1,0 +1,43 @@
+$color-dark: black;
+$color-light: white;
+
+@mixin flexCenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin padding($padding: 10px) {
+  padding: $padding;
+  padding-left: $padding * 10;
+}
+
+:root {
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.center {
+  @include flexCenter;
+
+  position: relative;
+
+  > * {
+    @include padding();
+
+    position: relative;
+    color: $color-light;
+    background: $color-dark;
+  }
+}
+
+a {
+  color: inherit;
+}
